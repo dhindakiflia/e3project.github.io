@@ -1,0 +1,125 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .contact-form{
+      width: 100%;
+  }
+  .contact-form input{
+      width: 100%;
+      text-align: left;
+  }
+  .contact-form button{
+      width: 100%;
+      text-align: center;
+  }
+  .contact-form p{
+      font-size: 15px;
+  }
+  .contact-form h5{
+      width: 100%;
+  }
+  .contact-form h3{
+      width: 100%;
+      text-align: center;
+  }
+
+  .contents-item {
+    float: center;
+    margin-bottom: 60px;
+  }
+  .lesson{
+    width: 50%;
+  }
+  .contents{
+    width: 50%;
+  }
+  .header-right{
+    display:none;
+  }
+  .menu-icon{
+    display:block;
+    color: white;
+    opacity: 1.0;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .heading-section{
+    width: fit-content;
+  }
+  .contact-form{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+  .contact-form input{
+    width: 100%;
+    text-align: left;
+  }
+  .contact-form button{
+    width: 100%;
+    text-align: center;
+  }
+  .contact-form p{
+    font-size: 15px;
+  }
+  .contact-form h5{
+    width: 100%;
+  }
+  .contact-form h3{
+    width: 100%;
+    text-align: center;
+  }
+  .container {
+    width: 100%;
+  }
+
+  .contents-item {
+      float: center;
+      margin-bottom: 20px;
+      width: 100%;
+  }
+
+  .text-contents {
+      font-size: 10px;
+  }
+
+  .lesson {
+      float: center;
+      width: 100%;
+  }
+
+  .lesson-icon img {
+      width: 35%;
+      height: 35%;
+  }
+
+  .lesson-icon p {
+      font-size: 15px;
+  }
+  .contents{
+    width: 100%;
+  }
+  .message {
+    padding: 10px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  .header-right{
+    display:none;
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon{
+    display:block;
+    color: white;
+    opacity: 1.0;
+  }
+}
